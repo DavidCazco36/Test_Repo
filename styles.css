@@ -1,1 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Domine&family=Montserrat:wght@100&display=swap');
+
+*{
+    margin:0; 
+    box-sizing:border-box;
+    
+   }
+   body {
+     font-family:'Helvetica',serif;
+   }
+   nav{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    max-width:800px;
+    margin:auto;
+   }
+   #menu {
+       font-family: 'Helvetica', serif;
+       font-size:20px;
+       font-weight:bold;
+       text-align:center;
+       margin:auto 30px;
+   }
+   #menu a{
+    margin:10px
+   }
+   #logo{
+     margin:20px 50px;
+     font-family: 'Helvetica', serif;
+   }
+   .parrafo p {
+       color: blue;
+       text-align: left;
+       width: 100%;
+       margin: 20px auto;
+       padding: 0 50px;
+
+   }
+   h1{
+       text-align: center;
+   }
+   .banner{
+       padding: 100px;
+       background-image:url("./images/gatito.jpg");
+       background-position: center;
+       background-size:cover;
+   }
+   .banner h3{
+       color:white;
+       text-align: center;
+       padding: 40px;
+       border: 6px solid white;
+       border-radius: 30px;
+       width:200px;
+       margin: 0 auto;
+   }
+
+   
