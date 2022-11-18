@@ -5,6 +5,9 @@
     box-sizing:border-box;
     
    }
+   header {
+    background-color: red;
+   }
    body {
      font-family:'Helvetica',serif;
    }
@@ -23,14 +26,20 @@
        margin:auto 30px;
    }
    #menu a{
-    margin:10px
+    margin:10px;
+    color: yellow;
+    text-decoration:none;
    }
    #logo{
      margin:20px 50px;
      font-family: 'Helvetica', serif;
+     color: yellow;
+   }
+   .title{
+    margin-top:30px;
    }
    .parrafo p {
-       color: blue;
+       color: gray;
        text-align: left;
        width: 100%;
        margin: 20px auto;
@@ -49,11 +58,11 @@
    .banner h3{
        color:white;
        text-align: center;
-       padding: 40px;
-       border: 6px solid white;
-       border-radius: 30px;
+       padding: 20px;
+       border: 3px solid white;
+       border-radius: 10px;
        width:200px;
-       margin: 0 auto;
+       margin: auto;
    }
 
    
